@@ -53,5 +53,5 @@ resource "aws_security_group" "main" {
 
 resource "aws_key_pair" "deployer" {
   key_name   = "key-for-demo"
-  public_key = "ssh-rsa ***
+  public_key = "ssh-rsa ***"
 }
